@@ -11,3 +11,11 @@
     flex: 1 150px;
     margin-top: auto;
 }
+.tab-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table-responsive {
+    padding-top: 10px;
+}
