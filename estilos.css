@@ -3,13 +3,12 @@
 }
 
 .btn {
-    background-color:  rgba(240, 86, 145, 0.699);
+
     margin-top: 10px;
 }
 
 .card-service {
-    flex: 1 150px;
-    margin-top: auto;
+    flex: 1 100px;
 }
 .tab-content {
     padding-top: 10px;
@@ -19,3 +18,4 @@
 .table-responsive {
     padding-top: 10px;
 }
+
