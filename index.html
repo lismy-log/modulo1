@@ -105,7 +105,8 @@
                         src="https://para-que-sirve.org/wp-content/uploads/2017/12/historia-de-la-base-de-datos.jpg"
                         alt="Responsive-image">
                     <div class="card-body">
-                        <h5 class="card-title">Software a Medida</h5>
+                        <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                            title="Cuenta con asesoria gratuita">Software a Medida</h5>
                         <h6 class="card-subtitle text'muted">Base de Datos</h6>
                         <p class="card-text"> Analizamos tu idea o necesidad y te asesoramos ofreci�ndote una propuesta
                             de desarrollo a medida para la misma. Plataformas de E'commerce, Desarrollo e implememtacion
@@ -453,6 +454,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("[dta-toggle= 'tooltip']").tooltip();
+        });
+    </script>
 
 </body>
 
