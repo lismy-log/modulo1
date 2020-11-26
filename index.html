@@ -12,11 +12,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="style.scss">
 
 
     <!-- Custom styles for this template -->
-    <link href="estilos.css" rel="stylesheet">
+    <link href="style.scss" rel="stylesheet">
 
 </head>
 
@@ -67,7 +67,7 @@
                 propuestas de integracion de arquitecturas legadas con nuevas tecnologias.</p>
 
             <p>
-                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample"
+                <button class="btn btn-info" id="infoBtn" type="button" data-toggle="collapse" data-target="#collapseExample"
                     aria-expanded="false" aria-controls="collapseExample">
                     Mas de Nosotros
                 </button>
@@ -189,7 +189,7 @@
                         </div>
 
                         <div class="text-center">
-                            <a href="" class="btn btn-info btn-rounded mb-4  " data-toggle="modal"
+                            <a href="" class="btn btn-info btn-rounded mb-4  " id="SolicitarBtn" data-toggle="modal"
                                 data-target="#modalContactForm">Solicitar</a>
                         </div>
 
@@ -482,7 +482,10 @@
         $(function () {
             $("[data-toggle= 'tooltip']").tooltip();
             $("[data-toggle=popover]").popover();
-            $('.carousel').carousel({ interval: 1000 })
+            $('.carousel').carousel({ interval: 1000 });
+            $("#SolicitarBtn").on('hidden.bs.modal', function(){
+    alert("Hello World!");
+})
         });
 
     </script>

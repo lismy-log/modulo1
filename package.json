@@ -1,25 +1,24 @@
 {
-  "name": "cursoweb",
+  "name": "modulo1",
   "version": "1.0.0",
-  "description": "Nuestro primer proecto de nodejs",
+  "description": "proyecto git",
   "main": "index.html",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://lgortiz@bitbucket.org/lgortiz/cursoweb.git"
+    "url": "git+https://github.com/lismy-log/modulo1.git"
   },
-  "author": "Lizeht Ortiz",
+  "author": "lismy",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/lgortiz/cursoweb#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
+  "bugs": {
+    "url": "https://github.com/lismy-log/modulo1/issues"
   },
-  "dependencies": {
-    "bootstrap": "^4.5.3",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  }
+  "homepage": "https://github.com/lismy-log/modulo1#readme"
 }
